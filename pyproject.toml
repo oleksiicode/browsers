@@ -32,6 +32,7 @@ repository = "https://github.com/roniemartinez/browsers"
 packages = [
     { include = "browsers" },
 ]
+include = ["browsers/py.typed"]
 
 [tool.poetry.group.dev.dependencies]
 autoflake = "^2.3.1"
